@@ -1,0 +1,162 @@
+body {
+  font-family: "Open Sans";
+}
+.btn_control,.span1,.span3{
+  cursor:pointer;
+}
+.btn_control:hover{
+  background-color:#e2e2e2
+}
+.chart {
+  min-width: 320px;
+  max-width: 800px;
+  height: 220px;
+  margin: 0 auto;
+}
+.third-e-margins{
+  width:340px;
+}
+
+.mark_sun{
+  color:yellow;
+}
+.highcharts-tooltip{
+  padding: 8px;
+  height:20%;
+  width:20%;
+}
+.btn-default:hover {
+  background-color: rgb(255, 255, 255)!important;
+  border-color: rgb(204, 204, 204)!important;;
+}
+.line_allowable{
+  background-color:rgb(255, 248, 238);
+  padding:3px;
+  z-index:1
+}
+.btn:focus {
+  outline: 0!important;
+}
+#container{
+  z-index:5;
+}
+div .div_width{
+  width:260px;
+}
+#xrange_container{
+  margin-top:20px
+}
+
+.second-e-margins{
+  width:350px;
+}
+.color_yellow{
+  color:#edb874
+}
+.color_red{
+  color:#fc5b2b
+}
+.color_blue{
+  color:#4879b2;
+}
+.vertical-center{
+  display: flex;
+  align-items: center;
+}
+.float-e-margins{
+  width:250px;
+  border-radius: 4px;
+  z-index:50;
+}
+.span1{
+  width:10%;
+  color:#4879b2;
+}
+.span3{
+  width:10%;
+  color:#4879b2;
+}
+.span2{
+  width:80%
+}
+.ibox_bottom{
+    clear: both;
+    color: inherit;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+}
+.ibox-title {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #ffffff;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 2px 0 0;
+  color: inherit;
+  margin-bottom: 0;
+  padding: 2px 2px 2px;
+  min-height: 48px;
+}
+.ibox-content {
+  background-color: #ffffff;
+  color: inherit;
+  padding: 15px 15px 15px 15px;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px 0;
+}
+.chart {
+  min-width: 320px;
+  max-width: 800px;
+  height: 220px;
+  margin: 0 auto;
+}
+.col-md-6{
+  text-align:left!impotant;
+}
+.highcharts-plot-line-label {
+  color:#FFF;
+}
+.pull-left{
+  float:left!important;
+}
+.btn{
+  color:#4879b2!important;
+  background: white;
+  z-index: 5;
+  border-color: rgba(239, 228, 228, 0.26);
+}
+.col-md-6{
+
+}
+.btn_reset{
+  float: right;
+  position: absolute;
+  right: 35px;
+  top: 290px!important;
+  box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, .2);
+  border-top-color: transparent!important;
+  border-top-right-radius: 0px!important;
+  border-top-left-radius: 0px!important;
+}
+.btn_zoom{
+  float: right;
+  position: relative;
+  right: 1px;
+  top: 262px!important;
+  border-bottom-color:#4879b2!important;
+  border-bottom-right-radius: 0px!important;
+  border-bottom-left-radius: 0px!important;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, .2);
+}
+
+
+
+<!-- http://doc.jsfiddle.net/use/hacks.html#css-panel-hack -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
